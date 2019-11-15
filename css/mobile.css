@@ -75,4 +75,6 @@
   .footer-copyright {
     padding-bottom: 20px;
   }
-}
+  .link-foot+.link-foot:not(:first-child):after {
+    margin-left: -9px;
+  }

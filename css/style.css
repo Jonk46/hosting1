@@ -318,10 +318,6 @@ a.cheesecake {
   margin-left: 20px;
 }
 
-.w-100 {
-  padding: 20px 0;
-}
-
 .section-six-text {
   color: #000;
 }
@@ -385,6 +381,17 @@ button.button-message {
 
 .footer-wrapper {
   background-color: #353f47;
+}
+
+li .nav link {
+  position: relative;
+}
+
+.link-foot+.link-foot:not(:first-child):after {
+  position: absolute;
+  content: ' |';
+  line-height: 50px;
+  top: 0;
 }
 
 /* FOOTER end */
