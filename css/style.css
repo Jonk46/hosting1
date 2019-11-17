@@ -77,7 +77,6 @@ header {
 .wrapper-menu {
   display: flex;
   align-items: center;
-  min-height: 150px;
   background-color: #48535a;
   opacity: 0.851;
 }
